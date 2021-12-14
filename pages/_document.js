@@ -14,7 +14,7 @@ class MyDocument extends Document {
         lang={this.props.locale}
       >
         <Head />
-        <body className='dark:bg-black dark:text-white'>
+        <body className='font-body dark:bg-black dark:text-white '>
           <Main />
           <NextScript />
         </body>
